@@ -139,14 +139,8 @@ ul {
   opacity: 1;
 }
 
-.top {
-	position: relative;
-}
-
 .social_buttons {
 	position: absolute;
-	width: 400px;
-	right: 0;
+	right: 40px;
 	top: 20px;
-	z-index: 100;
 }
