@@ -1,3 +1,5 @@
+ErrorDocument 404 /
+
 # кеширование в браузере на стороне пользователя
 <IfModule mod_expires.c>
 	ExpiresActive On
