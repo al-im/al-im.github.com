@@ -1,0 +1,27 @@
+.logo {
+	position: relative;
+}
+
+.orange_frame {
+	height: 50px;
+	width: 110px;
+	background: #dd5c2a;
+	border: 3px solid #e0e0df;
+	position: absolute;
+}
+
+.green_frame {
+	height: 50px;
+	width: 110px;
+	background: #707f34;
+	border: 3px solid #e0e0df;
+	position: absolute;
+	left: 20px;
+	top: 18px;
+}
+
+.logo_text {
+	color: #ffffff;
+	padding-left: 25px;
+	padding-top: 5px;
+}
