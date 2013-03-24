@@ -1,7 +1,3 @@
-.logo {
-	position: relative;
-}
-
 .orange_frame {
 	height: 50px;
 	width: 110px;
@@ -16,8 +12,8 @@
 	background: #707f34;
 	border: 3px solid #e0e0df;
 	position: absolute;
-	left: 20px;
-	top: 18px;
+	left: 60px;
+	top: 28px;
 }
 
 .logo_text {

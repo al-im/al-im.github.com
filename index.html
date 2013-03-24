@@ -1,58 +1,89 @@
-<html>
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>al-im.com</title>
+        <meta name="description" content="Техподдержка офисов, Корпоративные сервера, Легальное ПО">
+        <meta name="viewport" content="width=device-width">
 
-<head>
-	<title>al-im.com</title>
-	<meta http-equiv="Content-Type" content="text/html; Charset=UTF-8">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/logo.css">
-	<link rel="stylesheet" type="text/css" href="css/social_buttons.css">
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-	<script language="JavaScript" src="js/page_selection.js"></script>
-	<script language="JavaScript" src="js/scroll.js"></script>
-	<script language="JavaScript" src="js/social_buttons.js"></script>
-</head>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/logo.css">
+        <link rel="stylesheet" href="css/social_buttons.css">
 
-<body>
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
 
-	<div class="top">
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
 
-		<din class="logo">
-			<div class="orange_frame"></div>
-			<div class="green_frame">
-				<p class="logo_text">al-im.com</p>
-			</div>
-		</div>
+        <script language="JavaScript" src="js/page_selection.js"></script>
+        <script language="JavaScript" src="js/scroll.js"></script>
+        <script language="JavaScript" src="js/social_buttons.js"></script>
 
-		<div class="social_buttons">
-			<div 
-			 	class="social" 
-			 	data-title="al-im.com [админы]" 
-			 	data-description="Техподдержка офисов, Корпоративные сервера, Легальное ПО" 
-			 	data-path="images/" 
-			></div>
-		</div>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
 
-	</div>
+        <link rel="icon" href="favicon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
-	<div class="buttons">
-		<form>
-			<input onclick="pageSelector('contacts')" type="button" class="button" name="btn_left" value="OK"> 
-			<input onclick="pageSelector('next')" type="button" class="button" name="btn_right" value="Подробнее...">
-		</form>
-	</div>
-	
-	<div id="contentBody">
-		<h1>
-			<p class="index">Админы!</p>
-		</h1>
-	</div>
+        <!--[if lt IE 9]>
+            <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+            <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
+        <![endif]-->
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
 
-	<div id="loading" style="display: none">
-		Задумался...
-	</div>
+        <div class="top">
 
-	<div class="go-up" title="Вверх" id='ToTop'>⇧</div>
-	
-</body>
+            <din class="logo">
+                <div class="orange_frame"></div>
+                <div class="green_frame">
+                    <p class="logo_text">al-im.com</p>
+                </div>
+            </div>
 
+            <div class="social_buttons">
+                <div 
+                    class="social" 
+                    data-title="al-im.com [админы]" 
+                    data-description="Техподдержка офисов, Корпоративные сервера, Легальное ПО" 
+                    data-path="img/" 
+                ></div>
+            </div>
+
+        </div>
+
+        <div class="buttons">
+            <form>
+                <input onclick="pageSelector('contacts')" type="button" class="button" name="btn_left" value="OK"> 
+                <input onclick="pageSelector('next')" type="button" class="button" name="btn_right" value="Подробнее...">
+            </form>
+        </div>
+        
+        <div id="contentBody">
+            <h1>
+                <p class="index">Админы!</p>
+            </h1>
+        </div>
+
+        <div id="loading" style="display: none">
+            Задумался...
+        </div>
+
+        <div class="go-up" title="Вверх" id='ToTop'>⇧</div>
+
+        <script>
+            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+    </body>
 </html>

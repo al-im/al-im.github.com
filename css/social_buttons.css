@@ -6,7 +6,7 @@
     border-radius:  4px;
 }
 
-.social: hover  {
+.social:hover  {
     background:  #F6F6F6;
     border:  1px solid #D4D4D4;
     box-shadow:  0 0 5px #DDD;
@@ -16,7 +16,7 @@
     opacity:  0.5;
 }
 
-.social a: hover  {
+.social a:hover  {
     opacity:  1;
 }
 
@@ -24,8 +24,8 @@
     position: relative;
 }
 
-.social: hover a  {
-    opacity:  0.7;
+.social:hover a  {
+    opacity:  0.8;
 }
 
 .social a span  {
@@ -46,11 +46,11 @@
     font:  12px/20px Arial, sans-serif;
 }
 
-.social a: hover span  {
+.social a:hover span  {
     display:  block;
 }
 
-.social a span: before  {
+.social a span:before  {
     content:  '';
     position:  absolute;
     top:  50%;

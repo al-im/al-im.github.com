@@ -13,32 +13,37 @@ html {
 	padding-top: 90px;
 }
 
-h1 {
+.index {
+	font-size: 50pt;
+	padding-top: 3%;
+}
+
+.my_h1 {
 	display: inline-block;
 	text-align: justify;
 	font-size: 50pt;
 	padding-top: 20px;
 }
 
-h2 {
+.my_h2 {
 	display: inline-block;
 	text-align: justify;
 	font-size: 30pt;
 }
 
-h3 {
+.my_h3 {
 	display: inline-block;
 	text-align: justify;
 	font-size: 18pt;
 }
 
-h4 {
+.my_h4 {
 	display: inline-block;
 	text-align: justify;
 	font-size: 14pt;
 }
 
-h5 {
+.my_h5 {
 	display: inline-block;
 	text-align: justify;
 	font-size: 12pt;
@@ -56,6 +61,7 @@ ul {
 
 .contacts {
 	font-size: 30pt;
+	padding-top: 2%;
 }
 
 .title1 {
@@ -70,6 +76,10 @@ ul {
 .hex {
 	font-weight: normal;
 	font-family: times;
+}
+
+.top {
+	padding-top: 10px;
 }
 
 /*Кнопки*/
